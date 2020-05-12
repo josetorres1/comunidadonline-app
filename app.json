@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Comunidad Online",
+    "slug": "hosanna-app",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "splash": {
+      "image": "./assets/icon2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "info.comunidadhosanna.comunidadonline",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "info.comunidadhosanna.comunidadonline",
+      "versionCode": 2,
+      "permissions": []
+    }
+  }
+}
